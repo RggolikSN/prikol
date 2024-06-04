@@ -100,17 +100,10 @@ body{
     letter-spacing: 1vh;
     border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 0.75vh;
-    background-color: rgb(71, 124, 238);
-    box-shadow: 0 0 80px rgb(71, 124, 238), 0 0 40px rgba(71, 124, 238, 0.5), 0 0 150px rgba(71, 124, 238, .2), 0 0 800px rgba(71, 124, 238, .2);
-}
-
-.back:hover{
-    box-shadow: 0 0 10px rgb(71, 124, 238), 0 0 40px rgb(71, 124, 238), 0 0 150px rgba(71, 124, 238, .5), 0 0 800px rgba(71, 124, 238, .9);
 }
 
 .back:active{
     transition: 0.1s ease-in-out;
     letter-spacing: 1.5vh;
     transform: scale(1.1);
-    box-shadow: 0 0 10px rgba(71, 124, 238, .2), 0 0 40px rgba(71, 124, 238, .2), 0 0 150px rgba(71, 124, 238, .2), 0 0 800px rgba(71, 124, 238, .2);
 }
