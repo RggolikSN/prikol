@@ -19,3 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     clickButton.addEventListener('click', incrementCount);
 });
+
+function back(){
+    setTimeout(() => {
+        window.location.href='https://rggoliksn.github.io/prikol/';
+    }, 2000);
+}
